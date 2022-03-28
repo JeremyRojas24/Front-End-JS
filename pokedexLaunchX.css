@@ -1,0 +1,119 @@
+body {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #FFDE00;
+    background-color:  #3466AF;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.pokedex {
+    max-width: 77%;
+    max-height: 77%;
+}
+
+.titulo {
+    font-size: 70px;
+    text-align: center;
+    padding: 1px;
+    margin: 7px;
+}
+
+.botonInput {
+    background-color: wheat;
+    border-radius: 5px;
+    max-width: 100px;
+    max-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 587px;
+    left: 355px;
+    font-weight: 600;
+}
+
+.botonBusqueda {
+    background-color: #55ab62;
+    border-radius: 5px;
+    width: 180px;
+    height: 80px;
+    text-align: center;
+    color: #182E2C;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 730px;
+    left: 277px;
+}
+
+.imagenPokemon {
+    width: 195px;
+    height: 200px;
+    position: absolute;
+    top: 350px;
+    left: 310px;
+}
+
+.tiposPokemon {
+    background-color: #1a3230;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 743px;
+    left: 760px;
+    padding: 8px;
+}
+
+.letraTipos {
+    background-color: #1a3230;
+    border-color: #1a3230;
+    border-style: none;
+    width: 130px;
+    color: #FFDE00;
+    font-weight: 700;
+    text-align: center;
+}
+
+.statsPokemon {
+    background-color: #1a3230;
+    border-radius: 5px;
+    width: 200px;
+    height: 72px;
+    text-align: center;
+    position: absolute;
+    top: 743px;
+    left: 937px;
+    padding: 5px;
+}
+
+.letraStats {
+    background-color: #1a3230;
+    border-color: #1a3230;
+    border-style: none;
+    color: #FFDE00;
+    font-weight: 700;
+    text-align: center;
+}
+
+.movesPokemon {
+    background-color: #1a3230;
+    border-radius: 5px;
+    width: 345px;
+    height: 140px;
+    text-align: center;
+    position: absolute;
+    top: 360px;
+    left: 770px; 
+}
+
+.letraMoves {
+    background-color: #1a3230;
+    border-color: #1a3230;
+    border-style: none;
+    color: #FFDE00;
+    font-weight: 700;
+    text-align: center;
+}
+
