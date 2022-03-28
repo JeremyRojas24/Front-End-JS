@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex LaunchX</title>
+    <link href="http://fonts.cdnfonts.com/css/pokemon-hollow" rel="stylesheet">
+    <link rel="stylesheet" href="./pokedexLaunchX.css">
+</head>
+<body>
+    <h1 class="titulo">Pokédex LaunchX</h1>
+    <div>
+        <div class="centrar">
+            <img class="pokedex" src="./POKÉDEX.png" alt="pokédex">
+        </div>
+        <input class="botonInput" type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+        <img class="imagenPokemon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/769px-Pokebola-pokeball-png-0.png" alt="Pokemon" id="pokeImg" width="150px">
+        <button class="botonBusqueda" onclick="fetchPokemon()">Search <br> Pokémon</button><!--En el onclick estoy mandando a llamar a una función del JS, en este caso la de fetchPokemon-->
+        
+        <div class="tiposPokemon">
+            <label for="types">Types:</label><br>
+            <input class="letraTipos" type="text" placeholder="types" id="pokeType" value="" disabled="true"></a>
+        </div>
+
+        <div class="statsPokemon">
+            <label for="stats">Stats:</label><br>
+            <textarea class="letraStats" placeholder="stats" id="pokeStat" value="" disabled="true" cols="22" rows="3"></textarea>
+        </div>
+        <div class="movesPokemon">
+            <label for="moves">Moves:</label><br>
+            <textarea class="letraMoves" placeholder="moves" id="pokeMove" value="" disabled="true" cols="38" rows="7"></textarea> 
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./pokedexLaunchX.js"></script>
+</footer>
+</html>
